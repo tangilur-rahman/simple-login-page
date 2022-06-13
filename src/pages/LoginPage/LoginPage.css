@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.login-main-container {
+	width: 100vw;
+	height: 100vh;
+
+	background: url("./bg-image/seo-agency-software.jpg") no-repeat center 12% /
+			cover,
+		linear-gradient(to right top, #7485c9, #747aad, #6f7091, #686777, #5e5e5e);
+
+	background: url("./bg-image/seo-agency-software.jpg") no-repeat center 12% /
+			cover,
+		-moz-linear-gradient(to right top, #7485c9, #747aad, #6f7091, #686777, #5e5e5e);
+
+	background: url("./bg-image/seo-agency-software.jpg") no-repeat center 12% /
+			cover,
+		-webkit-linear-gradient(to right top, #7485c9, #747aad, #6f7091, #686777, #5e5e5e);
+
+	/* background-size: cover;
+	background-position: center 12%;
+	background-repeat: no-repeat; */
+}
+
+.login-container {
+	display: flex;
+	justify-content: center;
+}
+
+.login-container-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.login-header {
+	text-align: center;
+	/* color: white; */
+	letter-spacing: 1.2px;
+	margin: 65px 0 0 0;
+}
+
+.login-header h3 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.login-body {
+	display: flex;
+	justify-content: center;
+	height: 470px;
+	margin: 30px 0 0 0;
+}
+
+.login-body-img {
+	position: relative;
+}
+
+.login-body-img .right-img {
+	width: 100%;
+	height: 470px;
+	border-radius: 6px 0 0 6px;
+}
+
+.login-body-img .right-logo {
+	width: 85px;
+	height: 50px;
+	position: absolute;
+	left: 40px;
+	top: 24px;
+}
+
+.login-body .login-form {
+	background-color: #ffffff;
+	border-radius: 0 6px 6px 0;
+}
+
+.login-form .text-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.text-section h3 {
+	font-size: 25px;
+	letter-spacing: 0.4px;
+	font-weight: 600;
+	margin: 55px 0 0 0;
+}
+
+.text-section .horizontal-line {
+	background-color: #0081a7;
+	width: 130px;
+	height: 1.9px;
+	border: 0;
+	margin: 8px 0 0 0;
+}
+
+.login-body .form-section {
+	margin: 40px 0px 0 50px;
+}
+
+.form-section .email-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-section .password-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-section label {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.form-section input {
+	padding: 10px;
+	border: none;
+	margin: 8px 0 8px 0px;
+	height: 45px;
+	width: 80%;
+	font-size: 17px;
+}
+
+.form-section input[type="email"],
+input[type="password"] {
+	background-color: #e8e8e8 !important;
+}
+.form-section input:focus {
+	outline: none;
+}
+
+.login-button {
+	margin: 18px 0 0 0;
+	padding: 5px;
+	width: 80%;
+	background-color: #2686ff;
+	border: none;
+	border-radius: 14px;
+	color: white;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.form-section a {
+	display: block;
+	width: 80%;
+	text-decoration: none;
+	text-align: center;
+	margin: 16px 0px 0 0px;
+	font-size: 15px;
+}
+
+.login-footer-container {
+	display: flex;
+	justify-content: center;
+}
+
+.login-footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 45px 0 0 0;
+}
+
+.login-footer .login-footer-left {
+	color: white;
+	font-size: 12px;
+}
+
+.login-footer .login-footer-center img {
+	margin: 0 10px 0px 0px;
+	width: 20px;
+}
+
+.login-footer .login-footer-right a {
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+}
+
+.login-footer-right #term {
+	margin: 0 10px 0 0;
+}
