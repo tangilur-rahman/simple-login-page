@@ -6,7 +6,7 @@ const LoginPage = () => {
 		<>
 			<div className="container-fluid login-main-container">
 				<div className="row login-container">
-					<div className="col-md-10 ">
+					<div className="col-sm-10 p-0">
 						<div className="row login-container-content">
 							{/* header section  */}
 							<div className="col login-header">
@@ -19,7 +19,7 @@ const LoginPage = () => {
 							{/* body section  */}
 							<div className="col">
 								<div className="row login-body ">
-									<div className="col-md-5 p-0 login-body-img">
+									<div className="col-md-6 col-lg-5 p-0 login-body-img">
 										<img
 											src="/assets/loginPage/images/login-image.png"
 											alt="login left-side img"
@@ -31,7 +31,7 @@ const LoginPage = () => {
 											className="img-fluid right-logo"
 										/>
 									</div>
-									<div className="col-md-5 p-0 login-form">
+									<div className="col-md-6 col-lg-5 p-0 login-form">
 										<div className="text-section">
 											<h3>Login to your account</h3>
 											<div className="horizontal-line"></div>
@@ -74,7 +74,7 @@ const LoginPage = () => {
 
 							{/* footer section  */}
 							<div className="login-footer-container">
-								<div className="col-10 login-footer">
+								<div className="col-lg-10 col-12 login-footer">
 									<div className="login-footer-left">
 										&copy; 2022 ProjmanTech. All rights reserved
 									</div>
