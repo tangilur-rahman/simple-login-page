@@ -8,12 +8,15 @@ const LoginPage = () => {
 				<div className="row login-container">
 					<div className="col-md-10 ">
 						<div className="row login-container-content">
+							{/* header section  */}
 							<div className="col login-header">
 								<h3>
 									Welcome to <br />
 									Project Management Technology
 								</h3>
 							</div>
+
+							{/* body section  */}
 							<div className="col">
 								<div className="row login-body ">
 									<div className="col-md-5 p-0 login-body-img">
@@ -73,7 +76,7 @@ const LoginPage = () => {
 							<div className="login-footer-container">
 								<div className="col-10 login-footer">
 									<div className="login-footer-left">
-										<p>&copy; 2022 ProjmanTech. All rights reserved</p>
+										&copy; 2022 ProjmanTech. All rights reserved
 									</div>
 
 									<div className="login-footer-center">
@@ -96,10 +99,10 @@ const LoginPage = () => {
 									</div>
 
 									<div className="login-footer-right">
-										
-											<a href="#" id="term">Term and Conditions</a>
-											<a href="#">Privacy Policy</a>
-										
+										<a href="#" id="term">
+											Term and Conditions
+										</a>
+										<a href="#">Privacy Policy</a>
 									</div>
 								</div>
 							</div>
