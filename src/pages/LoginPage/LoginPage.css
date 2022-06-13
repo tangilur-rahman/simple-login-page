@@ -11,21 +11,12 @@
 	width: 100vw;
 	height: 100vh;
 
-	background: url("./bg-image/seo-agency-software.jpg") no-repeat center 12% /
-			cover,
+	background: url("./bg-image/seo-agency-software-gradient.jpg"),
 		linear-gradient(to right top, #7485c9, #747aad, #6f7091, #686777, #5e5e5e);
 
-	background: url("./bg-image/seo-agency-software.jpg") no-repeat center 12% /
-			cover,
-		-moz-linear-gradient(to right top, #7485c9, #747aad, #6f7091, #686777, #5e5e5e);
-
-	background: url("./bg-image/seo-agency-software.jpg") no-repeat center 12% /
-			cover,
-		-webkit-linear-gradient(to right top, #7485c9, #747aad, #6f7091, #686777, #5e5e5e);
-
-	/* background-size: cover;
+	background-size: cover;
 	background-position: center 12%;
-	background-repeat: no-repeat; */
+	background-repeat: no-repeat;
 }
 
 .login-container {
@@ -40,7 +31,7 @@
 
 .login-header {
 	text-align: center;
-	/* color: white; */
+	color: white;
 	letter-spacing: 1.2px;
 	margin: 65px 0 0 0;
 }
