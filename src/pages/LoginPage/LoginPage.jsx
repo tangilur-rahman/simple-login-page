@@ -26,8 +26,8 @@ const LoginPage = () => {
 											className="img-fluid right-img"
 										/>
 										<img
-											src="/assets/loginPage/logo/PMT-LOGO-bl.png"
-											alt=""
+											src="/assets/loginPage/logo/PMT-LOGO-wh.png"
+											alt="logo"
 											className="img-fluid right-logo"
 										/>
 									</div>
